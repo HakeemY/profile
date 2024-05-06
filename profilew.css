@@ -1,0 +1,272 @@
+
+/************* Import a google fonts called Roboto, I used the regular options *********/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/************* Header of the page  *********/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+
+}
+
+.container{
+    background-color: white;
+
+}
+/************* Section for the navigationbar  *********/
+.navbar{
+    background-color: darkslategrey;
+    display: flex;
+    color: white;
+    text-align: right;
+    justify-content: space-between;
+    font-size: large;
+    left: 20px;
+}
+.nav-title{
+    margin-left: 20px;
+}
+.nav-links{
+    display: flex; 
+    justify-content: space-between;
+    gap: 40px;
+}
+
+li {
+    list-style: none;
+}
+.home, .find,.active{
+    color: white;
+}
+.btn{
+    background-color: deepskyblue;
+    color: white;
+}
+/************* The body content of the page start here *********/
+.body-content{
+    display:flex;
+    justify-content: space-evenly;
+}
+/************* Profile  data  sections "Left upper side *********/
+.left-1-{
+    background-color: white;
+    height: 68px;
+    width: 470px;
+}
+
+.left-2{
+    background-color: #4ba0b5;
+    height: 68px;
+    width: 487px;
+    margin-top: 184px;    
+}
+.photo{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    position: relative;
+    top: 15px; ;
+    left:22px ;
+}
+.left-3{
+    background-color: white;
+    height: 208px;
+    width: 469px;
+    padding-left: 16px;
+    border: 1px solid #cdcdcd;
+    border-width: 1px;
+}
+
+.profilename{
+    color: black;
+    padding-top: 38px;
+    padding-left: 2px;
+    
+}
+
+.marker{
+    width: 10px;
+    height: 13px;
+    margin-left: 10px;
+    padding-top: 10px; 
+    
+}
+.discription{
+    color: black;
+    margin-left: 10px;
+    margin-top: 1px;
+    padding-top: 6px; 
+}
+
+.setting{
+    color: white;
+    margin-left: 10px;
+    margin-top: 7px;
+    height: 16px;
+    padding-top: 3px;
+}
+/************* Education section of the page " Left bottom section of the page *********/
+
+.left-4{
+    background-color: black;
+    height: 70px;
+    width: 485px;
+    margin-top: 27px;
+}
+.education{
+ color: white;
+    padding: 24px;
+}
+
+.left-5{
+    background-color: white;
+    height: 117px;
+    width: 481px;
+    border: 1px solid #cdcdcd;
+    border-width: 1px;
+}
+.coding{
+    padding: 15px;
+} 
+.dec{
+    padding-inline: 14px;
+} 
+.trip{
+    padding-left: 13px;
+    padding-top: 17px;
+
+}
+
+/************* The Connection Requests of the page "Right upper side of the page" *********/
+
+.right-1{
+    background-color: black;
+    height: 57px;
+    width: 305px;
+    margin-top: 180px;
+}
+.circle2{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: lightgray;
+    color: #fff;
+    margin-top: 20px;
+    margin-inline: 20px;
+    border: 2px solid #cdcdcd;
+}
+.request{
+    color: white;
+    margin-top: -23px;
+    margin-left: 80px;
+}
+.right-2{
+    background-color: white;
+    height: 130px;
+    width: 302px;
+    margin-top: 9px;
+    border: 1px solid #cdcdcd;
+}
+.todd{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-inline:28px ;
+}
+.todd-e{
+    display: flex;
+    justify-content: space-between;
+}
+.todd-name{
+    color: black;
+    margin-inline: 38px;
+}
+.accept, .close{
+    height: 25px;
+    width: 25px;
+}
+.phil{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-inline:28px ;
+}
+.phil-k{
+    display: flex;
+    justify-content: space-between;
+}
+.phil-name{
+    color: black;
+    margin-inline: 38px;
+}
+
+/************* The Connections section of the page "Bottom right side of the page *********/
+
+.right-3{
+    background-color: black;
+    height: 54px;
+    width: 306px;
+    margin-top: -44px;
+}
+.five{
+    width: 40px;
+    height: 40px;
+    border-radius: 60%;
+    background-color: lightgray;
+    color: #fff;
+    font-size: 15px;
+    margin-top: 9px;
+    margin-inline: 20px;
+}
+.con-1{
+    margin-left: 80px;
+    margin-top: -32px;
+    color: white;
+}
+
+.right-4{
+    background-color: white;
+    height: 257px;
+    width: 304px;
+    border: 1px solid #cdcdcd;
+    margin-top: -4px;
+}
+
+.friendlist{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 5px;
+}
+
+.friendinfo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pic-1 {
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.right-5{
+    background-color: white;
+    height: 13px;
+    width: 276px;
+}
+
+.right-5 {
+    padding: 15px;
+    border: 1px solid #cdcdcd;
+}
+
+.right-5 a {
+    color: #17A2B8;
+}
